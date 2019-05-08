@@ -24,13 +24,20 @@ export default {
   components: {
     Logo
   },
+  async asyncData() {
+    let data = await axios.get('/api/class').then(() => {
+      return {'data': res.data.data}
+    }).catch( () => {})
+    console.log(data, 'data')
+    return {
+      data: data
+    }
+  },
   created() {
-    console.log('created')
-    axios.get('/api/class').then( res => {
-      this.data = res.data.data
-    }).catch( () => {
+    setTimeout( () => {
+      console.log(this.data)
+    }, 1000)
 
-    })
   }
 }
 </script>
