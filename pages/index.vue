@@ -13,12 +13,12 @@
           href="https://nuxtjs.org/"
           target="_blank"
           class="button--green"
-        >github</a>
+        >wendang</a>
         <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey"
-        >GitHub</a>
+        >github</a>
       </div>
     </div>
   </section>
