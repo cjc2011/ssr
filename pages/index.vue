@@ -13,7 +13,7 @@
           href="https://nuxtjs.org/"
           target="_blank"
           class="button--green"
-        >D</a>
+        >github</a>
         <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
