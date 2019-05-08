@@ -2,34 +2,35 @@
   <section class="container">
     <div>
       <logo />
-      <h1 class="title">
-        blog
-      </h1>
-      <h2 class="subtitle">
-        My swell Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >wendang</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >1-2</a>
-      </div>
+      <ul>
+        <li v-for="(item) in data" :key="item.id">
+          <h4>{{item.title}}</h4>
+        </li>
+      </ul>
     </div>
   </section>
 </template>
 
 <script>
 import Logo from '~/components/Logo.vue'
+import axios from 'axios'
 
 export default {
+  data() {
+    return {
+      data: []
+    }
+  },
   components: {
     Logo
+  },
+  created() {
+    console.log('created')
+    axios.get('/api/class').then( res => {
+      this.data = res.data.data
+    }).catch( () => {
+
+    })
   }
 }
 </script>
@@ -64,5 +65,9 @@ export default {
 
 .links {
   padding-top: 15px;
+}
+ul > li {
+  line-height: 40px;
+  border-bottom: 1px solid #333333;
 }
 </style>
