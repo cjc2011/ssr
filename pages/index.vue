@@ -2,7 +2,9 @@
   <section class="container">
     <div>
       <logo />
-      <ul>
+
+	<h2>test</h2>
+       <ul>
         <li v-for="(item) in data" :key="item.id">
           <h4>{{item.title}}</h4>
         </li>
