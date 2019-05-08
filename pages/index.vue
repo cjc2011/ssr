@@ -18,7 +18,7 @@
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey"
-        >github</a>
+        >test</a>
       </div>
     </div>
   </section>
