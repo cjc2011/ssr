@@ -18,7 +18,7 @@
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey"
-        >1-1</a>
+        >1-2</a>
       </div>
     </div>
   </section>
