@@ -1,7 +1,10 @@
 const pkg = require('./package')
+const dev = require('./nuxt.dev-config.js')
+const prd = require('./nuxt.prd-config.js')
 
+const merge = require('webpack-merge')
 
-module.exports = {
+const baseConfig = {
   mode: 'universal',
   /*
   ** Headers of the page
@@ -56,3 +59,5 @@ module.exports = {
     }
   }
 }
+
+module.exports = merge(baseConfig, process.env.NODE_ENV === 'production' ? prd : dev)
