@@ -27,7 +27,7 @@ export default {
     Logo
   },
   asyncData(context) {
-    return axios.get('http://localhost:3001/api/class').then( (data) => {
+    return axios.get('/api/class').then( (data) => {
       return {'data': data.data.data}
     }).catch( (err) => {
 

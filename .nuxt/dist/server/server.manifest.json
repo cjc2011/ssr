@@ -2,12 +2,12 @@
   "entry": "server.js",
   "files": {
     "09ce2ae75cc1ad71f98f.js": "09ce2ae75cc1ad71f98f.js",
-    "8755ec20259d3aa9ed31.js": "8755ec20259d3aa9ed31.js",
+    "78c0e5d9b1f61ca4b0b2.js": "78c0e5d9b1f61ca4b0b2.js",
     "server.js": "server.js"
   },
   "maps": {
     "09ce2ae75cc1ad71f98f.js": "09ce2ae75cc1ad71f98f.js.map",
-    "8755ec20259d3aa9ed31.js": "8755ec20259d3aa9ed31.js.map",
+    "78c0e5d9b1f61ca4b0b2.js": "78c0e5d9b1f61ca4b0b2.js.map",
     "server.js": "server.js.map"
   }
 }
