@@ -1,6 +1,7 @@
 const pkg = require('./package')
 const dev = require('./nuxt.dev-config.js')
 const prd = require('./nuxt.prd-config.js')
+const path = require('path')
 
 const merge = require('webpack-merge')
 
@@ -56,10 +57,7 @@ const baseConfig = {
       '@nuxtjs/style-resources',
     ],
     styleResources: {
-      scss: [
-        './assets/css/global/*.scss',
-        './assets/css/pages/about/*.scss',
-      ]
+
     },
     /*
     ** You can extend webpack config here
@@ -69,6 +67,7 @@ const baseConfig = {
 
         // config.module.rules
       }
+      config.resolve.alias['%'] = path.resolve(__dirname, 'assets/css/pages')
     }
   }
 }

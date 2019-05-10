@@ -3,7 +3,9 @@
     <div>
       <logo />
       <nuxt-link to="/user">用户页面</nuxt-link>
-	    <h2>test</h2>
+      <div class="content-hd">
+        <h2 class="title">test</h2>
+      </div>
       <ul>
         <li v-for="(item) in data" :key="item.id">
           <h4>{{item.title}}</h4>
