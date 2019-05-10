@@ -1,0 +1,2 @@
+exports.ids=[2],exports.modules={80:function(e,t,r){"use strict";r.r(t);var n={asyncData(){console.log("user asyncData")}},c=r(3),component=Object(c.a)(n,function(){var e=this.$createElement;return(this._self._c||e)("div",[this._ssrNode("user")])},[],!1,null,null,"851baadc");t.default=component.exports}};
+//# sourceMappingURL=09ce2ae75cc1ad71f98f.js.map

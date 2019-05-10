@@ -6,7 +6,6 @@ router.get('/class', (req, res) => {
   axios.get('https://cnodejs.org/api/v1/topics').then( axiosRes => {
     res.json(axiosRes.data)
   })
-
 })
 
 router.get('/', (req, res) => {

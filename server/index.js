@@ -24,11 +24,6 @@ async function start() {
   }
 
   app.use('/api', router)
-  // app.get('/json', function(req, res) {
-  //   res.send({
-  //     a: 'asasasas'
-  //   });
-  // });
 
   // Give nuxt middleware to express
   app.use(nuxt.render)

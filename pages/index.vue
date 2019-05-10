@@ -2,9 +2,9 @@
   <section class="container">
     <div>
       <logo />
-
-	<h2>test</h2>
-       <ul>
+      <nuxt-link to="/user">用户页面</nuxt-link>
+	    <h2>test</h2>
+      <ul>
         <li v-for="(item) in data" :key="item.id">
           <h4>{{item.title}}</h4>
         </li>
@@ -15,7 +15,7 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
-import axios from 'axios'
+import axios from '~/plugins/axios.js'
 
 export default {
   data() {
@@ -26,20 +26,17 @@ export default {
   components: {
     Logo
   },
-  async asyncData() {
-    let data = await axios.get('/api/class').then(() => {
-      return {'data': res.data.data}
-    }).catch( () => {})
-    console.log(data, 'data')
-    return {
-      data: data
-    }
+  asyncData(context) {
+    return axios.get('http://localhost:3001/api/class').then( (data) => {
+      return {'data': data.data.data}
+    }).catch( (err) => {
+
+    })
   },
   created() {
     setTimeout( () => {
-      console.log(this.data)
+      console.log(this.data, 'asyncData')
     }, 1000)
-
   }
 }
 </script>
