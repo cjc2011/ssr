@@ -35,7 +35,7 @@ export default {
   },
   created() {
     setTimeout( () => {
-      console.log(this.data, 'asyncData')
+      // console.log(this.data, 'asyncData')
     }, 1000)
   }
 }

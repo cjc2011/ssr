@@ -30,7 +30,8 @@ const baseConfig = {
   ** Global CSS
   */
   css: [
-    'element-ui/lib/theme-chalk/index.css'
+    'element-ui/lib/theme-chalk/index.css',
+    './assets/css/global/index.scss',
   ],
 
   /*
@@ -51,11 +52,23 @@ const baseConfig = {
   */
   build: {
     transpile: [/^element-ui/],
-
+    modules: [
+      '@nuxtjs/style-resources',
+    ],
+    styleResources: {
+      scss: [
+        './assets/css/global/*.scss',
+        './assets/css/pages/about/*.scss',
+      ]
+    },
     /*
     ** You can extend webpack config here
     */
     extend(config, ctx) {
+      if (config.isClient) {
+
+        // config.module.rules
+      }
     }
   }
 }

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{303:function(n,t,e){"use strict";e.r(t);var c={asyncData:function(){console.log("user asyncData")}},l=e(29),component=Object(l.a)(c,function(){var n=this.$createElement;return(this._self._c||n)("div",[this._v("user")])},[],!1,null,null,null);t.default=component.exports}}]);
