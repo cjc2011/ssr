@@ -1,10 +1,8 @@
 <template>
   <section class="container">
     <div>
-      <logo />
-      <nuxt-link to="/user">用户页面</nuxt-link>
       <div class="content-hd">
-        <h2 class="title">test</h2>
+        <h3 class="title">SSR demo</h3>
       </div>
       <ul>
         <li v-for="(item) in data" :key="item.id">
@@ -16,7 +14,6 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 import axios from '~/plugins/axios.js'
 
 export default {
@@ -24,9 +21,6 @@ export default {
     return {
       data: []
     }
-  },
-  components: {
-    Logo
   },
   asyncData(context) {
     return axios.get('/api/class').then( (data) => {
@@ -57,10 +51,11 @@ export default {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
-  font-weight: 300;
-  font-size: 100px;
+  font-weight: 400;
+  font-size: 40px;
   color: #35495e;
   letter-spacing: 1px;
+  margin-bottom: 30px;
 }
 
 .subtitle {
@@ -75,6 +70,7 @@ export default {
   padding-top: 15px;
 }
 ul > li {
+  text-align: left;
   line-height: 40px;
   border-bottom: 1px solid #333333;
 }
