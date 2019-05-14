@@ -14,7 +14,6 @@
       </section>
       <section class="info">
         <h2>男 / 1992.01</h2>
-        <h3>华中师范</h3>
       </section>
       <section class="contact">
         <ul>
@@ -26,7 +25,7 @@
           </li>
           <li>
             <a href="https://github.com/cjc2011" target="_blank">
-              <span class="contact-link">github.com/cjc2011</span>
+              <span class="contact-link">github.com</span>
               <i class="iconfont icon-github"></i>
             </a>
           </li>
@@ -58,42 +57,26 @@
               <li>
                 <p class="section-content">
                   <i class="iconfont icon-dot"></i>
-                  掌握Web前端开发基本技能，熟悉
-                  <strong>W3C标准</strong>、
-                  <strong>页面布局架构</strong>、
-                  <strong>前端语义化</strong>、浏览器
-                  <strong>兼容性</strong>等，懂些
-                  <strong>审美</strong>，擅长
-                  <strong>设计</strong>，重视
-                  <strong>用户体验</strong>与
-                  <strong>代码可维护性</strong>，有
-                  <strong>近2年</strong>的前端开发经验。
+                  能够编写语义化HTML, 模块化Css, 熟练使用<strong>Sass</strong>、<strong>Stylus</strong>预处理器及<strong>BEM</strong>规范
                 </p>
               </li>
               <li>
                 <p class="section-content">
                   <i class="iconfont icon-dot"></i>
-                  对UI框架
-                  <strong>Bootstrap</strong>、类库
-                  <strong>jQuery</strong>、
-                  <strong>模板引擎</strong>、
-                  <strong>MV*框架</strong>、
-                  <strong>HTML5</strong>、
-                  <strong>CSS3</strong>、
-                  <strong>CSS预处理器</strong>、
-                  <strong>响应式布局</strong>等有着较熟练的实践和较深刻的感悟。
+                  熟练掌握原生<strong>JavaScript</strong>, 能够脱离js类库coding, 对<strong>ES6</strong>、<strong>TypeScript</strong>有项目实践经验
                 </p>
               </li>
               <li>
                 <p class="section-content">
                   <i class="iconfont icon-dot"></i>
-                  对
-                  <strong>性能优化</strong>、
-                  <strong>模块加载</strong>、
-                  <strong>前端工程化</strong>、
-                  <strong>前端安全</strong>、
-                  <strong>ES6</strong>、
-                  <strong>NodeJS</strong>等有一定的了解和思考。
+                  熟练使用<strong>Vue</strong>、<strong>React</strong>、<strong>Riot</strong>等框架, 阅读过Vue的部分源码，了解<strong>Vuex</strong>、<strong>Vue-Router</strong>代码运行原理，使用过<strong>Nuxt</strong>构建过SSR。
+                  使用<strong>React-Native</strong>、<strong>React-Redux</strong>编写过个人项目，
+                </p>
+              </li>
+              <li>
+                <p class="section-content">
+                  <i class="iconfont icon-dot"></i>
+
                 </p>
               </li>
               <li>
@@ -104,52 +87,16 @@
                   <strong>Markdown</strong>进行文档编写，并以
                   <strong>Mac OS X</strong>、
                   <strong>Linux</strong>、
-                  <strong>WebStorm</strong>作为日常开发环境进行工作，了解项目开发流程及开发调试工具的使用。
+                  <strong>VScode</strong>作为日常开发工具。
+                </p>
+              </li>
+              <li>
+                <p class="section-content">
+                  <i class="iconfont icon-dot"></i>
+                  熟悉<strong>Linux</strong>常用操作，有<strong>NodeJS</strong>、<strong>Express</strong>开发及自动化部署经验
                 </p>
               </li>
             </ul>
-          </div>
-        </section>
-        <section class="prize">
-          <header class="section-hd">
-            <span class="section-title-l"></span>
-            <h2 class="section-title">奖项证书</h2>
-            <span class="section-title-r"></span>
-          </header>
-          <div class="section-bd">
-            <div class="item">
-              <header class="item-hd">
-                <span class="item-time">2015.12</span>
-                <span class="item-more">院校级</span>
-                <h3 class="item-name">
-                  重
-                  <span class="print-hidden">庆</span>邮
-                  <span class="print-hidden">电大学</span>计算机学院2015年度创新创业先进个人
-                </h3>
-              </header>
-            </div>
-            <div class="item">
-              <header class="item-hd">
-                <span class="item-time">2015.06</span>
-                <span class="item-more">省部级</span>
-                <h3 class="item-name">
-                  重庆市
-                  <span class="print-hidden">高校</span>第八届数据库应用程序
-                  <span class="print-hidden">设计</span>竞赛 · 一等奖
-                </h3>
-              </header>
-            </div>
-            <div class="item">
-              <header class="item-hd">
-                <span class="item-time">2014.04</span>
-                <span class="item-more">院校级</span>
-                <h3 class="item-name">
-                  重
-                  <span class="print-hidden">庆</span>邮
-                  <span class="print-hidden">电大学</span>计算机学院班级主页设计大赛 · 一等奖
-                </h3>
-              </header>
-            </div>
           </div>
         </section>
       </div>
@@ -163,26 +110,16 @@
           <div class="section-bd">
             <div class="item">
               <header class="item-hd">
-                <span class="item-time">2016.11</span>
-                <a class="btn item-more" href="https://we.cqu.pt" target="_blank">Link</a>
-                <h3 class="item-name">We重邮 · 微信小程序</h3>
+                <span class="item-time">2018.11</span>
+                <a class="btn item-more" href="https://github.com/cjc2011/school_app" target="_blank">Git</a>
+                <h3 class="item-name">智慧网校</h3>
               </header>
               <div class="item-bd">
                 <p class="section-content">
-                  <strong>提出想法</strong>
-                  <strong>项目牵头</strong>
-                  <strong>产品策划</strong>
-                  <strong>前端开发</strong>
-                  <strong>代码开源</strong>
-                  基于微信小程序
-                  <em>MINA框架</em>的
-                  <em>WXML</em>、
-                  <em>WXSS</em>、JS为代码语言进行开发，视图层采用
-                  <em>Flex弹性布局</em>，逻辑层采用模块化模式开发。 此外还利用
-                  <em>gulp</em>、
-                  <em>Express</em>、
-                  <em>ejs</em>、
-                  <em>Echarts</em>等技术完成对产品官网及数据大盘的开发。
+                  管理后台及网校移动端框架和工具采用
+                  <strong>Vue</strong>
+                  <strong>ElementUI</strong>，项目剥离了请求接口、页面等层级，对公用组件及方法进行了封装。
+                  使用<strong>Vuex</strong>进行全局的数据状态管理降低了功能模块之间的耦合度及数据交互，使用动态路由匹配对用户进行权限管理，使用<strong>Echarts</strong>可视化交易流水，课时安排等数据统计；
                 </p>
               </div>
             </div>
@@ -302,7 +239,7 @@
 <script>
 export default {
   asyncData() {
-    console.log("user asyncData");
+    // console.log("user asyncData");
   }
 };
 </script>
