@@ -348,11 +348,12 @@ a {
             display: inline-block;
             font-family: Menlo, $font-family;
             font-size: 12px;
-            line-height: 14px;
+            line-height: 16px;
             border: 1px solid #d1d1d1;
             border-radius: 3px;
             margin: 2px;
             padding: 0 3px;
+            vertical-align: bottom;
             background-color: #f7f7f7;
         }
         strong {
