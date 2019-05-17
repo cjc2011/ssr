@@ -57,66 +57,37 @@
               <li>
                 <p class="section-content">
                   <i class="iconfont icon-dot"></i>
-                  能够编写语义化HTML, 模块化Css, 熟练使用
-                  <strong>Sass</strong>、
-                  <strong>Stylus</strong>预处理器及
-                  <strong>BEM</strong>规范
+                  能够编写语义化<strong>HTML</strong>、模块化<strong>Css</strong>，熟练使用<strong>Sass</strong>、<strong>Stylus</strong>预处理器及<strong>BEM</strong>规范
                 </p>
               </li>
               <li>
                 <p class="section-content">
                   <i class="iconfont icon-dot"></i>
-                  熟练掌握原生
-                  <strong>JavaScript</strong>, 能够脱离js类库coding, 对
-                  <strong>ES6</strong>、
-                  <strong>TypeScript</strong>有项目实践经验
+                  熟练掌握原生<strong>JavaScript</strong>，能够脱JS类库编码, 对<strong>ES6</strong>、<strong>TypeScript</strong>有项目实践经验
                 </p>
               </li>
               <li>
                 <p class="section-content">
                   <i class="iconfont icon-dot"></i>
-                  熟练使用
-                  <strong>Vue</strong>、
-                  <strong>React</strong>、
-                  <strong>React-Native</strong>、
-                  <strong>Riot</strong>等框架以及其相关生态系统
-                  <strong>Vuex</strong>、
-                  <strong>Vue-Router</strong>、
-                  <strong>React-Router</strong>、
-                  <strong>React-Redux</strong>、
-                  <strong>Mobx</strong>。阅读过Vue的部分源码，了解
-                  <strong>Vuex</strong>、
-                  <strong>Vue-Router</strong>代码运行原理，使用过
-                  <strong>Nuxt</strong>构建过SSR。
+                  熟练使用<strong>Vue</strong>、<strong>React</strong>、<strong>React-Native</strong>、<strong>Riot</strong>等框架以及其相关生态系统<strong>Vuex</strong>、<strong>Vue-Router</strong>、<strong>React-Router</strong>、<strong>React-Redux</strong>、<strong>Mobx</strong>。阅读过Vue的部分源码，了解<strong>Vuex</strong>、<strong>Vue-Router</strong>代码运行原理，使用过<strong>Nuxt</strong>构建过SSR。
                 </p>
               </li>
               <li>
                 <p class="section-content">
                   <i class="iconfont icon-dot"></i>
-                  熟悉前端构建
-                  <strong>webpack</strong>,
-                  <strong>gulp</strong>及单元测试
-                  <strong>jest</strong>并有实践经验
+                  熟悉前端构建<strong>webpack</strong>、<strong>gulp</strong>及<strong>jest</strong>单元测试并有实践经验
                 </p>
               </li>
               <li>
                 <p class="section-content">
                   <i class="iconfont icon-dot"></i>
-                  熟悉
-                  <strong>Linux</strong>常用操作，有
-                  <strong>NodeJS</strong>、
-                  <strong>Express</strong>开发及自动化部署经验
+                  熟悉<strong>Linux</strong>常用操作，有<strong>NodeJS</strong>、<strong>Express</strong>开发及自动化部署经验
                 </p>
               </li>
               <li>
                 <p class="section-content">
                   <i class="iconfont icon-dot"></i>
-                  熟练使用
-                  <strong>Git</strong>进行版本控制和代码托管、
-                  <strong>Markdown</strong>进行文档编写，并以
-                  <strong>Mac OS X</strong>、
-                  <strong>Linux</strong>、
-                  <strong>VScode</strong>作为日常开发环境。
+                  熟练使用<strong>Git</strong>进行版本控制和代码托管、<strong>Markdown</strong>进行文档编写，并以<strong>Mac OS X</strong>、<strong>Linux</strong>、<strong>VScode</strong>作为日常开发环境。
                 </p>
               </li>
             </ul>
