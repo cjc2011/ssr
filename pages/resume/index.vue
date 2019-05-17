@@ -187,7 +187,7 @@
                 <a class="btn item-more qr-code" href="https://www.jiandanxinli.com/experts" target="_blank">Link</a>
                 <div class="qr-code-img">
                   <div class="pop-arrow"></div>
-                  <img src="../../assets/qr-code.png" alt="二维码">
+                  <div class="pop-text">简单心理咨询预约</div>
                 </div>
                 <h3 class="item-name">心理预约咨询/心理预约咨询小程序</h3>
               </header>
@@ -200,10 +200,10 @@
             <div class="item">
               <header class="item-hd">
                 <span class="item-time">2018.05</span>
-                <a class="btn item-more qr-code" href="http://cqupt-cs.coding.congm.in" target="_blank">QRcode</a>
+                <a class="btn item-more qr-code" href="javascript:;" target="_blank">name</a>
                 <div class="qr-code-img">
                   <div class="pop-arrow"></div>
-                  <img src="../../assets/qr-code.png" alt="二维码">
+                  <div class="pop-text">心理成长自助训练工具包</div>
                 </div>
                 <h3 class="item-name">自助心理训练小程序</h3>
               </header>
