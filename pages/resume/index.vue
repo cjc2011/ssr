@@ -13,12 +13,12 @@
         </div>
       </section>
       <section class="info">
-        <h2>男 / 1992.01</h2>
+        <h2>4年经验 / 大专 / 27岁</h2>
       </section>
       <section class="contact">
         <ul>
           <li>
-            <a href="https://chenjiacheng.cn" target="_blank">
+            <a href="http://chenjiacheng.cn" target="_blank">
               <span class="contact-link">chenjiacheng.cn</span>
               <i class="iconfont icon-homepage"></i>
             </a>
@@ -96,7 +96,7 @@
         <section class="practice">
           <header class="section-hd">
             <span class="section-title-l"></span>
-            <h2 class="section-title">工作经历</h2>
+            <h2 class="section-title" @click="creatPDF">工作经历</h2>
             <span class="section-title-r"></span>
           </header>
           <div class="section-bd">
@@ -128,7 +128,7 @@
               <header class="item-hd">
                 <span class="item-time">2015.10 ~ 2017.02</span>
                 <a class="btn item-more" href="http://sijiyouwan.com/" target="_blank">Link</a>
-                <h3 class="item-name">北京司机游玩网络科技有限公司</h3>
+                <h3 class="item-name">北京四季游玩网络科技有限公司</h3>
               </header>
               <div class="item-bd">
                 <p class="section-content">
@@ -138,6 +138,11 @@
             </div>
           </div>
         </section>
+        <no-ssr>
+          <template v-if="!isMobile">
+            <example></example>
+          </template>
+        </no-ssr>
       </div>
       <div class="content-right">
         <section class="project">
@@ -263,53 +268,49 @@
             </div>
           </div>
         </section>
-        <section class="personal">
-          <header class="section-hd">
-            <span class="section-title-l"></span>
-            <h2 class="section-title">个人作品</h2>
-            <span class="section-title-r"></span>
-          </header>
-          <div class="section-bd">
-            <div class="item">
-              <header class="item-hd">
-                <a class="btn item-more" href="https://www.chenjiacheng.cn" target="_blank">Link</a>
-                <h3 class="item-name">
-                  <i class="iconfont icon-dot"></i> 个人主页 · 技术博客
-                </h3>
-              </header>
-              <div class="item-bd">
-                <p class="section-content">
-                  自己喜欢琢磨一些有趣有意思的东西，并以
-                  <em>chenjiacheng.cn</em>作为个人域名,使用<em>VPS</em>服务器搭建个人博客,代码托管在个人服务器仓库,并且使用<em>git hooks</em>作为自动化部署脚本
-                </p>
-              </div>
-            </div>
-            <div class="item">
-              <header class="item-hd">
-                <a class="btn item-more" href="https://github.com/cjc2011/reactNative" target="_blank">Link</a>
-                <h3 class="item-name">
-                  <i class="iconfont icon-dot"></i> RN项目
-                </h3>
-              </header>
-              <div class="item-bd">
-                <p class="section-content">
-                  公司曾经尝试过在APP中接入<em>React-Native</em>, 由于当时React团队开源协议问题不得不放弃，不过在此期间也提起了学习RN框架的兴趣。此为个人学习的项目，其中涉及到<em>React-Navigation</em> <em>Redux</em> <em>CodePush</em> <em>LanguageDao</em> <em>离线缓存</em>等技术应用
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+        <no-ssr>
+          <template v-if="isMobile">
+            <example></example>
+          </template>
+        </no-ssr>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Example from './example.vue'
+import axios from '~/plugins/axios.js'
+
 export default {
-  asyncData() {
-    // console.log("user asyncData");
+  data() {
+    return {
+      isMobile: false
+    }
+  },
+  head() {
+    return {
+      title: 'resume'
+    }
+  },
+  components: {
+    Example
+  },
+  created() {
+    if(process.browser) {
+      this.isMobile = navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)
+    }
+  },
+  methods: {
+    creatPDF() {
+      axios.get('/api/pdf').then( res => {
+        console.log(res, 'res')
+      }).catch( error => {
+        console.log(error, 'error')
+      })
+    }
   }
-};
+}
 </script>
 
 <style lang="scss">

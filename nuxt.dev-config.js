@@ -1,9 +1,11 @@
+const ip = require('ip');
+
 module.exports = {
   server: {
     port: 3001,
-    host: 'localhost',
+    host: ip.address(),
   },
   env: {
-    baseUrl: 'http://localhost:3001'
+    baseUrl: `${ip.address()}:3001`
   }
 }

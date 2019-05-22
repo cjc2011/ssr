@@ -28,11 +28,6 @@ export default {
     }).catch( (err) => {
 
     })
-  },
-  created() {
-    setTimeout( () => {
-      // console.log(this.data, 'asyncData')
-    }, 1000)
   }
 }
 </script>

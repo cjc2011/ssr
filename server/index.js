@@ -3,6 +3,7 @@ const consola = require('consola')
 const { Nuxt, Builder } = require('nuxt')
 const app = express()
 const router = require('./router/index.js')
+const puppeteer = require('puppeteer')
 
 // Import and Set Nuxt.js options
 let config = require('../nuxt.config.js')
