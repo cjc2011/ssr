@@ -1,1 +1,0 @@
-{"version":3,"file":"a0d5a393cbae46d302a3.js","sources":["webpack:///./plugins/axios.js"],"sourcesContent":["import axios from 'axios'\n\nconst url = process.env.NODE_ENV == 'production' ? 'http://www.chenjiacheng.cn' : 'http://localhost:3001';\n\nexport default axios.create({\n  baseURL: url\n})\n"],"mappings":"AAAA","sourceRoot":""}
