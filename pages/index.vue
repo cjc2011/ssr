@@ -2,7 +2,7 @@
   <section class="container">
     <div>
       <div class="content-hd">
-        <h3 class="title">SSR demo</h3>
+        <h3 class="title">SSR demo1</h3>
       </div>
       <ul>
         <li v-for="(item) in data" :key="item.id">
