@@ -2,9 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _dab8d644 = () => interopDefault(import('../pages/resume/index.vue' /* webpackChunkName: "pages/resume/index" */))
-const _19b6b714 = () => interopDefault(import('../pages/resume/example.vue' /* webpackChunkName: "pages/resume/example" */))
-const _fbb52558 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _317b6adc = () => interopDefault(import('../pages/resume/index.vue' /* webpackChunkName: "pages/resume/index" */))
+const _ca2685ac = () => interopDefault(import('../pages/resume/example.vue' /* webpackChunkName: "pages/resume/example" */))
+const _5920fa20 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 Vue.use(Router)
 
@@ -82,15 +82,15 @@ export function createRouter() {
 
     routes: [{
       path: "/resume",
-      component: _dab8d644,
+      component: _317b6adc,
       name: "resume"
     }, {
       path: "/resume/example",
-      component: _19b6b714,
+      component: _ca2685ac,
       name: "resume-example"
     }, {
       path: "/",
-      component: _fbb52558,
+      component: _5920fa20,
       name: "index"
     }],
 

@@ -8,7 +8,7 @@
     <div class="section-bd">
       <div class="item">
         <header class="item-hd">
-          <a class="btn item-more" href="http://www.chenjiacheng.cn" target="_blank">Link</a>
+          <a class="btn item-more" href="http://chenjiacheng.cn" target="_blank">Link</a>
           <h3 class="item-name">
             <i class="iconfont icon-dot"></i> 个人主页 · 技术博客
           </h3>
@@ -29,7 +29,7 @@
         </header>
         <div class="item-bd">
           <p class="section-content">
-            公司曾经尝试过在APP中接入<em>React-Native</em>, 由于当时React团队开源协议问题不得不放弃，不过在此期间也提起了学习RN框架的兴趣。此为个人学习的项目，其中涉及到<em>React-Navigation</em> <em>Redux</em> <em>CodePush</em> <em>LanguageDao</em> <em>离线缓存</em>等技术应用
+            公司曾经尝试过在APP中接入<em>React-Native</em>, 由于当时React团队开源协议问题不得不放弃，不过在此期间也提起了学习RN框架的兴趣。此为个人学习的项目，其中涉及到<em>React-Navigation</em> <em>Redux</em> <em>CodePush</em> <em>离线缓存</em>等技术应用
           </p>
         </div>
       </div>
